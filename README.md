@@ -1,12 +1,14 @@
 <div align="center">
 
 ```
- ██████╗████████╗███████╗    ████████╗ ██████╗  ██████╗ ██╗     ██╗  ██╗██╗████████╗
-██╔════╝╚══██╔══╝██╔════╝    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██║ ██╔╝██║╚══██╔══╝
-██║        ██║   █████╗         ██║   ██║   ██║██║   ██║██║     █████╔╝ ██║   ██║   
-██║        ██║   ██╔══╝         ██║   ██║   ██║██║   ██║██║     ██╔═██╗ ██║   ██║   
-╚██████╗   ██║   ██║            ██║   ╚██████╔╝╚██████╔╝███████╗██║  ██╗██║   ██║   
- ╚═════╝   ╚═╝   ╚═╝            ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝  
+______                                _____                      _
+|  _  \                              /  __ \                    | |
+| | | |  ___   ___   ___   ___   ___ | /  \/ _ __  _   _  _ __  | |_   ___   _ __
+| | | | / _ \ / _ \ / _ \ / _ \ / _ \| |    | '__|| | | || '_ \ | __| / _ \ | '__|
+| |/ / |  __/|  __/|  __/|  __/|  __/| \__/\| |   | |_| || |_) || |_ | (_) || |
+|___/   \___| \___| \___| \___| \___| \____/|_|    \__, || .__/  \__| \___/ |_|
+                                                    __/ || |
+                                                   |___/ |_|
 ```
 
 ### 🔐 *Decode anything. Crack every hash. Win every CTF.*
@@ -31,7 +33,7 @@
 
 <br/>
 
-> **CTF Toolkit** is a browser extension built for CTF players and security researchers.  
+> **DeeeeeCryptor** is a browser extension built for CTF players and security researchers.  
 > Paste any encoded string or hash, hit a button — get your answer **instantly**, entirely in your browser.  
 > No accounts. No servers. No nonsense.
 
@@ -49,7 +51,7 @@
 | 🔣 | **13 Decoders** | Base64, Base64URL, Base32, Base58, Hex, Binary, ROT13/47, Caesar, XOR, Morse, URL, HTML entities |
 | 🔍 | **Hash Identification** | Instantly detect MD5, SHA-1/256/512, bcrypt, NTLM and more — offline + Hashes.com API |
 | 🔓 | **Hash Cracking** | Built-in offline wordlist cracker + optional Hashes.com remote plaintext lookup |
-| 🖱️ | **Context Menu** | Select text on any page → right-click → *"Decode with CTF Toolkit"* |
+| 🖱️ | **Context Menu** | Select text on any page → right-click → *"Decode with DeeeeeCryptor"* |
 | 🌐 | **Cross-Browser** | Native support for **Chrome** (MV3) and **Firefox** |
 | 🛡️ | **100% Private** | Everything runs locally in your browser — zero telemetry, zero tracking |
 | ⚡ | **Zero Latency** | No loading screens, no API calls (unless you choose it), no waiting |
@@ -64,7 +66,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/ctf-toolkit.git
+git clone https://github.com/yourusername/deeeeecryptor.git
 ```
 
 Then in your browser:
@@ -72,7 +74,7 @@ Then in your browser:
 1. Go to `chrome://extensions/`
 2. Enable **Developer Mode** using the toggle in the top-right corner
 3. Click **Load unpacked**
-4. Select the cloned `ctf-toolkit/` folder
+4. Select the cloned `deeeeecryptor/` folder
 5. The 🔐 icon will appear in your toolbar
 
 > 📦 *Chrome Web Store listing coming soon*
@@ -83,7 +85,7 @@ Then in your browser:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/ctf-toolkit.git
+git clone https://github.com/yourusername/deeeeecryptor.git
 ```
 
 Then in Firefox:
@@ -107,7 +109,7 @@ Then in Firefox:
 
 ### Method 1 — Browser Popup
 
-Click the **🔐 CTF Toolkit icon** in your toolbar, switch to the tab you need, paste and go.
+Click the **🔐 DeeeeeCryptor icon** in your toolbar, switch to the tab you need, paste and go.
 
 <br/>
 
@@ -164,7 +166,7 @@ Click the **🔐 CTF Toolkit icon** in your toolbar, switch to the tab you need,
 The fastest way to decode without even opening the popup:
 
 1. **Select any suspicious text** on any webpage
-2. **Right-click** → *"Decode `<text>` with CTF Toolkit"*
+2. **Right-click** → *"Decode `<text>` with DeeeeeCryptor"*
 3. The popup opens with the selected text **already pre-filled** and ready to solve
 
 <br/>
@@ -316,7 +318,7 @@ We take privacy seriously. Here's exactly what gets sent where:
 ## 🗂️ Project Structure
 
 ```
-ctf-toolkit/
+deeeeecryptor/
 │
 ├── 📄 manifest.json           # Extension manifest (Manifest V3)
 ├── 📄 background.js           # Service worker — context menu & badge logic
@@ -363,8 +365,8 @@ Contributions, issues and feature requests are welcome!
 
 ```bash
 # Fork the repo, then:
-git clone https://github.com/yourusername/ctf-toolkit.git
-cd ctf-toolkit
+git clone https://github.com/yourusername/deeeeecryptor.git
+cd deeeeecryptor
 
 # Make your changes, load the extension as unpacked, test it
 # Then open a pull request 🎉
