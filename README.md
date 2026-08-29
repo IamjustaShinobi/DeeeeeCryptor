@@ -1,31 +1,16 @@
 <div align="center">
 
-```
-______                                _____                      _
-|  _  \                              /  __ \                    | |
-| | | |  ___   ___   ___   ___   ___ | /  \/ _ __  _   _  _ __  | |_   ___   _ __
-| | | | / _ \ / _ \ / _ \ / _ \ / _ \| |    | '__|| | | || '_ \ | __| / _ \ | '__|
-| |/ / |  __/|  __/|  __/|  __/|  __/| \__/\| |   | |_| || |_) || |_ | (_) || |
-|___/   \___| \___| \___| \___| \___| \____/|_|    \__, || .__/  \__| \___/ |_|
-                                                    __/ || |
-                                                   |___/ |_|
-```
+# 🔐 DeeeeeCryptor
 
-### 🔐 *Decode anything. Crack every hash. Win every CTF.*
+### *Decode anything. Crack every hash. Win every CTF.*
 
-<br/>
+A lightweight browser extension for **CTF players, security researchers, and curious hackers**.
 
-[![Chrome](https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](#-installation)
-[![Firefox](https://img.shields.io/badge/Firefox-Add--on-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](#-installation)
-[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline-4fd6be?style=for-the-badge&logo=shield&logoColor=white)]()
+[![Chrome](https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](#-installation) [![Firefox](https://img.shields.io/badge/Firefox-Add--on-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white)](#-installation) [![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge)]() [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline-4fd6be?style=for-the-badge&logo=shield&logoColor=white)]()
 
-<br/>
+**[✨ Features](#-features) · [⚡ Installation](#-installation) · [🚀 Usage](#-usage) · [🔣 Decoders](#-supported-decoders--ciphers) · [🔒 Hashes](#-hash-support) · [🛡️ Privacy](#-privacy)**
 
-**[✨ Features](#-features) · [⚡ Install](#-installation) · [🚀 Usage](#-usage) · [🔣 Decoders](#-supported-decoders--ciphers) · [🔒 Hashes](#-hash-support) · [🛡️ Privacy](#-privacy)**
-
-<br/>
+**🔗 [GitHub Repository](https://github.com/IamjustaShinobi/DeeeeeCryptor)**
 
 </div>
 
@@ -33,9 +18,10 @@ ______                                _____                      _
 
 <br/>
 
-> **DeeeeeCryptor** is a browser extension built for CTF players and security researchers.  
-> Paste any encoded string or hash, hit a button — get your answer **instantly**, entirely in your browser.  
-> No accounts. No servers. No nonsense.
+> **DeeeeeCryptor** is a browser extension built for CTF players and security researchers.
+> 
+> Paste an encoded string or hash, choose what you want to do, and get results directly in your browser.
+> **Fast, practical, and privacy-focused.**
 
 <br/>
 
@@ -66,7 +52,7 @@ ______                                _____                      _
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/deeeeecryptor.git
+git clone https://github.com/IamjustaShinobi/DeeeeeCryptor.git
 ```
 
 Then in your browser:
@@ -85,7 +71,7 @@ Then in your browser:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/deeeeecryptor.git
+git clone https://github.com/IamjustaShinobi/DeeeeeCryptor.git
 ```
 
 Then in Firefox:
@@ -365,20 +351,12 @@ Contributions, issues and feature requests are welcome!
 
 ```bash
 # Fork the repo, then:
-git clone https://github.com/yourusername/deeeeecryptor.git
+git clone https://github.com/IamjustaShinobi/DeeeeeCryptor.git
 cd deeeeecryptor
 
 # Make your changes, load the extension as unpacked, test it
 # Then open a pull request 🎉
 ```
-
-<br/>
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full details.
 
 <br/>
 
@@ -390,7 +368,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 Built with ❤️ for the CTF community
 
-*If this tool helped you capture a flag, leave a ⭐ — it means a lot!*
+*If this tool helped you capture a flag, consider leaving a ⭐ on the [GitHub repository](https://github.com/IamjustaShinobi/DeeeeeCryptor) — it means a lot!*
 
 <br/>
 
