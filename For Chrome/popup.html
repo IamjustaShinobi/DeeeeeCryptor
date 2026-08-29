@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>CTF Toolkit</title>
+<link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="prompt"><span class="prompt-user">ctf</span><span class="prompt-at">@</span><span class="prompt-host">toolkit</span><span class="prompt-colon">:~$</span> <span class="cursor">▌</span></div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="decode" role="tab" aria-selected="true">decode</button>
+      <button class="tab" data-tab="hash" role="tab" aria-selected="false">hash</button>
+      <button class="tab" data-tab="about" role="tab" aria-selected="false">about</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- DECODE PANEL -->
+    <section class="panel active" id="panel-decode">
+      <label class="field-label" for="decode-input">input</label>
+      <textarea id="decode-input" rows="4" placeholder="Paste ciphertext, encoded blob, or anything unknown…"></textarea>
+
+      <div class="btn-row">
+        <button id="btn-magic" class="btn btn-primary">✨ Auto-solve (magic)</button>
+        <button id="btn-clear" class="btn btn-ghost">clear</button>
+      </div>
+
+      <div class="method-grid" id="method-grid">
+        <!-- manual method buttons injected by popup.js -->
+      </div>
+
+      <div id="decode-results" class="results"></div>
+    </section>
+
+    <!-- HASH PANEL -->
+    <section class="panel" id="panel-hash">
+      <label class="field-label" for="hash-input">hash</label>
+      <textarea id="hash-input" rows="2" placeholder="Paste a hash to identify and crack…"></textarea>
+
+      <div class="btn-row">
+        <button id="btn-identify" class="btn btn-primary">identify</button>
+      </div>
+
+      <div id="hash-id-results" class="results"></div>
+
+      <div class="divider"></div>
+
+      <div class="btn-row">
+        <button id="btn-crack-local" class="btn btn-secondary">🔓 crack (local wordlist)</button>
+        <button id="btn-crack-remote" class="btn btn-secondary">☁ lookup (Hashes.com)</button>
+      </div>
+      <div id="crack-progress" class="progress-line" hidden></div>
+      <div id="hash-crack-results" class="results"></div>
+    </section>
+
+    <!-- ABOUT PANEL -->
+    <section class="panel" id="panel-about">
+      <p class="about-text">
+        CTF Toolkit runs every cipher/encoding decode locally in your browser — nothing you
+        type is sent anywhere. The one exception: the optional Hashes.com lookup, which
+        sends only the hash (never plaintext) to hashes.com using your own API key.
+      </p>
+      <p class="about-text">
+        Select text on any page → right-click → <em>"Decode with CTF Toolkit"</em> to send it
+        straight here.
+      </p>
+      <button id="btn-options" class="btn btn-ghost">⚙ configure Hashes.com API key</button>
+      <p class="about-version">v1.0.0</p>
+    </section>
+  </main>
+
+  <script src="lib/decoders.js"></script>
+  <script src="lib/md5.js"></script>
+  <script src="lib/wordlist.js"></script>
+  <script src="lib/hashlookup.js"></script>
+  <script src="lib/hashid.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
